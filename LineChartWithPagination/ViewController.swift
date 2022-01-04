@@ -9,14 +9,14 @@ import UIKit
 import Charts
 
 class ViewController: UIViewController {
-    
-    @IBOutlet var lineChartView: LineChartView!
     struct Constants {
         static let currentLineDataSetLabel = "currentLineDataSetLabel"
         static let previousLineDataSetLabel = "previousLineDataSetLabel"
         static let totalValue : Double = 1200 // Received from backend
         static let currency = "INR" // Received from backend
     }
+    
+    @IBOutlet var lineChartView: LineChartView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -134,8 +134,8 @@ class ViewController: UIViewController {
         lineChartSet.highlightColor = .clear
         lineChartSet.drawCircleHoleEnabled = false
         lineChartSet.lineWidth = 2
-        lineChartSet.fillColor = UIColor.blue
-        lineChartSet.colors = [UIColor.blue]
+        lineChartSet.fillColor = color
+        lineChartSet.colors = [color]
         
         
         if label == Constants.previousLineDataSetLabel {
