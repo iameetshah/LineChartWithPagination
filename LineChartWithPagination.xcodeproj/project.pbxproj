@@ -7,16 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C6F4F32278466F400930409 /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6F4F31278466F400930409 /* SampleData.swift */; };
 		0CEECA6E2771D03F00BC01F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEECA6D2771D03F00BC01F5 /* AppDelegate.swift */; };
 		0CEECA702771D03F00BC01F5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEECA6F2771D03F00BC01F5 /* SceneDelegate.swift */; };
 		0CEECA722771D03F00BC01F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEECA712771D03F00BC01F5 /* ViewController.swift */; };
 		0CEECA752771D03F00BC01F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEECA732771D03F00BC01F5 /* Main.storyboard */; };
 		0CEECA772771D04100BC01F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CEECA762771D04100BC01F5 /* Assets.xcassets */; };
 		0CEECA7A2771D04100BC01F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CEECA782771D04100BC01F5 /* LaunchScreen.storyboard */; };
+		0CEECA822771E0A600BC01F5 /* SomeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEECA812771E0A600BC01F5 /* SomeEntity.swift */; };
+		0CEECA842771E57D00BC01F5 /* CustomValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEECA832771E57D00BC01F5 /* CustomValueFormatter.swift */; };
+		0CEECA862771E97100BC01F5 /* LineChartDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEECA852771E97100BC01F5 /* LineChartDataEntry.swift */; };
 		D8232444CE277094BAC5C709 /* Pods_LineChartWithPagination.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE55762AA08E250EBC03B7BA /* Pods_LineChartWithPagination.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C6F4F31278466F400930409 /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
 		0CEECA6A2771D03F00BC01F5 /* LineChartWithPagination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LineChartWithPagination.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CEECA6D2771D03F00BC01F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CEECA6F2771D03F00BC01F5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +30,9 @@
 		0CEECA762771D04100BC01F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CEECA792771D04100BC01F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CEECA7B2771D04100BC01F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CEECA812771E0A600BC01F5 /* SomeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeEntity.swift; sourceTree = "<group>"; };
+		0CEECA832771E57D00BC01F5 /* CustomValueFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomValueFormatter.swift; sourceTree = "<group>"; };
+		0CEECA852771E97100BC01F5 /* LineChartDataEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartDataEntry.swift; sourceTree = "<group>"; };
 		6EB635E8F37BCEB12B8C55BF /* Pods-LineChartWithPagination.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LineChartWithPagination.release.xcconfig"; path = "Target Support Files/Pods-LineChartWithPagination/Pods-LineChartWithPagination.release.xcconfig"; sourceTree = "<group>"; };
 		775EEBF6BC4F82D08CDC746C /* Pods-LineChartWithPagination.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LineChartWithPagination.debug.xcconfig"; path = "Target Support Files/Pods-LineChartWithPagination/Pods-LineChartWithPagination.debug.xcconfig"; sourceTree = "<group>"; };
 		DE55762AA08E250EBC03B7BA /* Pods_LineChartWithPagination.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LineChartWithPagination.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,7 +73,11 @@
 			children = (
 				0CEECA6D2771D03F00BC01F5 /* AppDelegate.swift */,
 				0CEECA6F2771D03F00BC01F5 /* SceneDelegate.swift */,
+				0CEECA812771E0A600BC01F5 /* SomeEntity.swift */,
+				0C6F4F31278466F400930409 /* SampleData.swift */,
 				0CEECA712771D03F00BC01F5 /* ViewController.swift */,
+				0CEECA832771E57D00BC01F5 /* CustomValueFormatter.swift */,
+				0CEECA852771E97100BC01F5 /* LineChartDataEntry.swift */,
 				0CEECA732771D03F00BC01F5 /* Main.storyboard */,
 				0CEECA762771D04100BC01F5 /* Assets.xcassets */,
 				0CEECA782771D04100BC01F5 /* LaunchScreen.storyboard */,
@@ -80,7 +92,6 @@
 				775EEBF6BC4F82D08CDC746C /* Pods-LineChartWithPagination.debug.xcconfig */,
 				6EB635E8F37BCEB12B8C55BF /* Pods-LineChartWithPagination.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +219,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CEECA722771D03F00BC01F5 /* ViewController.swift in Sources */,
+				0C6F4F32278466F400930409 /* SampleData.swift in Sources */,
+				0CEECA862771E97100BC01F5 /* LineChartDataEntry.swift in Sources */,
+				0CEECA842771E57D00BC01F5 /* CustomValueFormatter.swift in Sources */,
 				0CEECA6E2771D03F00BC01F5 /* AppDelegate.swift in Sources */,
+				0CEECA822771E0A600BC01F5 /* SomeEntity.swift in Sources */,
 				0CEECA702771D03F00BC01F5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
